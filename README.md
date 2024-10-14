@@ -25,20 +25,20 @@ GNNs4HPP
 │    ├── run_mlp.py: runs the MLP baseline experiments
 │    └── run_pegnn.py: runs the PE-GNN experiments
 │
-├── src/
-│    ├── data/
-│         ├── benchmark_dataset.py: defines the MyDataset class
-│         ├── edge_generation.py: defines the functions for graph construction
-│         └── process_kc.py: defines a processing function for the KC dataset
-│    ├── methods/
-│         ├── model.py: defines the GNN and MLP classes
-│         ├── pegnn.py: defines the classes and functions for PE-GNN
-│         └── utils.py: defines early stopping, training, and evaluation of models
-│    └── utils/
-│         ├── dataset_descriptions.py: generates descriptive statistics of all graphs
-│         ├── feature_attribution.py: calculates feature attribution of XY and hedonic features
-│         ├── graph_attribution.py: calculates graph attribution with respect to unconnected and random graphs
-│         └── homophily_measures.py: calculates homophily measures of graphs
+└── src/
+    ├── data/
+    │     ├── benchmark_dataset.py: defines the MyDataset class
+    │     ├── edge_generation.py: defines the functions for graph construction
+    │     └── process_kc.py: defines a processing function for the KC dataset
+    ├── methods/
+    │     ├── model.py: defines the GNN and MLP classes
+    │     ├── pegnn.py: defines the classes and functions for PE-GNN
+    │     └── utils.py: defines early stopping, training, and evaluation of models
+    └── utils/
+         ├── dataset_descriptions.py: generates descriptive statistics of all graphs
+         ├── feature_attribution.py: calculates feature attribution of XY and hedonic features
+         ├── graph_attribution.py: calculates graph attribution with respect to unconnected and random graphs
+         └── homophily_measures.py: calculates homophily measures of graphs
 ```
 
 ## Installing
