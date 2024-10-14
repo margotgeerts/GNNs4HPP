@@ -1,3 +1,7 @@
+"""
+From the paper: https://arxiv.org/abs/2111.10144
+Based on the code from: https://github.com/konstantinklemmer/pe-gnn
+"""
 import numpy as np
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv, knn_graph
