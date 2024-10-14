@@ -1,0 +1,8 @@
+{
+    "hedonic_vars" : ["bedrooms", "bathrooms", "sqft_living",
+    "sqft_lot", "floors", "waterfront", "view", "condition", "grade",
+    "sqft_above", "yr_built"],
+    "date_var" : "date",
+    "spatial_vars" : ["lat", "long"],
+    "target" : "price"
+}

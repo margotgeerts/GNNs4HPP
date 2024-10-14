@@ -1,0 +1,9 @@
+{
+    "gabriel": "",
+    "relative_neighborhood": "",
+    "gaussian": {"cutoff": [0.996,0.9985, 0.99995]},
+    "kmeans": {"k": [5, 35, 100]},
+    "knn": {"n_neighbors": [5, 35, 100]},
+    "random": {"edge_prob": [0.000155]},
+    "unconnected": ""
+}
