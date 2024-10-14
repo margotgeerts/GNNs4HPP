@@ -24,6 +24,10 @@ from gpytorch.models import ApproximateGP
 from gpytorch.variational import CholeskyVariationalDistribution
 from gpytorch.variational import VariationalStrategy
 
+
+"""
+Based on the example from https://docs.gpytorch.ai/en/stable/examples/04_Variational_and_Approximate_GPs/index.html
+"""
 class GPModel(ApproximateGP):
     def __init__(self, inducing_points):
         variational_distribution = CholeskyVariationalDistribution(inducing_points.size(0))
