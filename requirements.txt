@@ -1,6 +1,6 @@
 torch==2.1.0
 torchvision==0.16.0
-pyg-lib==0.3.0
+# pyg-lib==0.3.0
 torch_geometric
 torchmetrics
 optuna
