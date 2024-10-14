@@ -13,7 +13,7 @@ GNNs4HPP
 │
 ├── data/
 │    ├── raw/
-│         └── kc_final.csv the King County dataset ([source](https://www.kaggle.com/datasets/astronautelvis/kc-house-data))
+│         └── kc_final.csv the King County dataset (from https://www.kaggle.com/datasets/astronautelvis/kc-house-data)
 │    └── processed/
 │
 ├── results/
@@ -34,7 +34,7 @@ GNNs4HPP
 │         ├── model.py: defines the GNN and MLP classes
 │         ├── pegnn.py: defines the classes and functions for PE-GNN
 │         └── utils.py: defines early stopping, training, and evaluation of models
-│    ├── utils/
+│    └── utils/
 │         ├── dataset_descriptions.py: generates descriptive statistics of all graphs
 │         ├── feature_attribution.py: calculates feature attribution of XY and hedonic features
 │         ├── graph_attribution.py: calculates graph attribution with respect to unconnected and random graphs
