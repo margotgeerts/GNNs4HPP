@@ -1,3 +1,7 @@
+"""
+Based on the paper: https://link.springer.com/article/10.1007/s41060-023-00452-2
+and corresponding code: https://github.com/StefanBloemheuvel/graph_comparison 
+"""
 import torch
 import numpy as np
 import scipy as sp
