@@ -13,7 +13,7 @@ GNNs4HPP
 │
 ├── data/
 │    ├── raw/
-│         └── kc_final.csv the King County dataset (from https://www.kaggle.com/datasets/astronautelvis/kc-house-data)
+│    │    └── kc_final.csv the King County dataset (from https://www.kaggle.com/datasets/astronautelvis/kc-house-data)
 │    └── processed/
 │
 ├── results/
