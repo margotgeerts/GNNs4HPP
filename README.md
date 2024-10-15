@@ -46,12 +46,11 @@ We have provided a `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
-The [`pyg-lib`](https://github.com/pyg-team/pyg-lib) package should be installed additionally, depending on the Torch and CUDA version. Please use the above in a newly created virtual environment to avoid clashing dependencies.
-
-Alternatively, the `GNNs4HPP.yml` file can be used to create a conda environment:
+The [`pyg-lib`](https://github.com/pyg-team/pyg-lib) package should be installed additionally, depending on the Torch and CUDA version. This can be done as follows:
 ```bash
-conda env create -f GNNs4HPP.yml
+pip install pyg-lib==0.3.0 -f https://data.pyg.org/whl/torch-2.1.0+${CUDA}.html
 ```
+Please use the above in a newly created virtual environment to avoid clashing dependencies.
 
 ## Usage
 After everything is installed properly, we can replicate the experiments in the paper. Firstly, set the project directory in the scripts you want to run. For example, `DIR = 'C:\Users\folder\subfolder\GNNs4HPP'`
