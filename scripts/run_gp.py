@@ -1,7 +1,7 @@
 # NOTE: Your script is not in the root directory. We must hence change the system path
 import os
 import sys
-DIR = "/Users/margotgeerts/OneDrive - KU Leuven/GNNs4HPP"
+DIR = "C:/Users/folder/subfolder/GNNs4HPP"
 os.chdir(DIR)
 sys.path.append(DIR)
 import argparse
