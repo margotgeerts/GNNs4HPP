@@ -36,6 +36,8 @@ seed_everything()
 
 
 save_dir = f'results/{data_name}_pegnn/'
+if not os.path.exists('results/'):
+      os.mkdir('results/')
 if not os.path.exists(save_dir):
     os.mkdir(save_dir)
 

@@ -155,6 +155,8 @@ for gen_param in gen_arg:
 
     early_stopper = EarlyStopper(patience=250, min_delta=0.)
     save_dir = f"results/{data_name}_{gnn_model}_{generator}_{gen_param}/"
+    if not os.path.exists('results/'):
+      os.mkdir('results/')
     if not os.path.exists(save_dir):
       os.mkdir(save_dir)
     save_best_model = SaveBestModel(dir=save_dir)

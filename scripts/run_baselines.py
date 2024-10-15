@@ -158,10 +158,10 @@ m = [
                             'test_mse': mean_squared_error(y_test, xgboost_model_xy.predict(X_xy_test)),
                             'model': 'xgboost', 'feature_set': 'xy'}]
 
+if not os.path.exists('results/'):
+      os.mkdir('results/')
 
-
-metrics = pd.read_csv(f'results/tree_baselines_{data_name}.csv', index_col=0)
-metrics = pd.concat([metrics, pd.DataFrame(m)], ignore_index=True)
+metrics =  pd.DataFrame(m)
 metrics.to_csv(f'results/tree_baselines_{data_name}.csv')
 
 tree_explainer1 = shap.TreeExplainer(lgbm_model)
