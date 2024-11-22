@@ -75,6 +75,15 @@ Please cite our paper and/or code as follows:
 
 ```tex
 
-@article{}
+@article{Geerts2024,
+   author = {Margot Geerts and Seppe {vanden Broucke} and Jochen {De Weerdt}},
+   doi = {10.1007/s41060-024-00682-y},
+   issn = {2364-4168},
+   journal = {International Journal of Data Science and Analytics},
+   title = {Graph neural networks for house price prediction: do or don’t?},
+   url = {https://doi.org/10.1007/s41060-024-00682-y},
+   year = {2024},
+}
+
 
 ```
