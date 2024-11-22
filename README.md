@@ -1,5 +1,7 @@
-# *Graph Neural Networks for House Price Prediction: Do or Don't?* </br><sub><sub>*Margot Geerts, Seppe vanden Broucke, Jochen De Weerdt* [[*Outlet Year*]](*url to paper*)</sub></sub>
-*Write a short summary of your paper*
+# *Graph Neural Networks for House Price Prediction: Do or Don't?* </br><sub><sub>*Margot Geerts, Seppe vanden Broucke, Jochen De Weerdt* [[2024]](https://doi.org/10.1007/s41060-024-00682-y)</sub></sub>
+In this paper, we performed a comprehensive benchmark of graph construction methods and prevalent GNN models for house price prediction. Furthermore, we compare these GNN approaches against an extensive suite of statistical, machine learning, and deep learning models. The results, drawn from six diverse housing datasets, reveal that GNNs are unsuccessful in surpassing machine learning and deep learning baselines. In particular, optimizing the graph structure yields only marginal improvements, with k-nearest neighbor graphs generally exhibiting superior performance. Among the GNN architectures evaluated, GraphSAGE and Transformer-based models demonstrate superior accuracy compared to other GNN variants. Ultimately, the findings suggest a general recommendation against the adoption of GNNs in favor of tree-based models such as LightGBM and CatBoost for house price prediction tasks.
+
+This repository contains all code to reproduce the experiments on the King County dataset.
 
 ## Repository structure
 This repository is organised as follows:
